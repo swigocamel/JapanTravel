@@ -1,3 +1,16 @@
 .purple {
     background-color: #9955ff;
 }
+
+.accordion-title {
+    font-size: large;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+}
