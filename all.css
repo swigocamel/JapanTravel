@@ -20,6 +20,22 @@ a:hover {
     background-color: pink;
 }
 
+.black {
+    color: black;
+}
+
 .subway-shinjuku-line {
     color: rgb(173, 238, 47);
+}
+
+.subway-hanzomon-line {
+    color: rgb(143, 118, 214);
+}
+
+.subway-tokyu-toyoko-line {
+    color: rgb(216, 0, 65);
+}
+
+.subway-fukutoshin-line {
+    color: rgb(156, 94, 49);
 }
