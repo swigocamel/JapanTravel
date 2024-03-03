@@ -15,15 +15,23 @@
     <div class="accordion" id="accordionPanelsStayOpenExample">
         <div class="accordion-item">
           <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-            <button class="accordion-button fs-2 fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+            <button class="accordion-button fs-2 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="false" aria-controls="panelsStayOpen-collapseOne">
               桃園->成田機場
             </button>
           </h2>
-          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
+          <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingOne">
             <div class="accordion-body">
-                <h3>星宇JX802</h3>
-                <h5>10:15 桃園第一航廈</h5>
-                <h5>14:15 成田第二航廈</h5>                
+              <i class="fa-solid fa-plane fs-4">
+                星宇JX802
+              </i>
+              <br>
+              <i class="fa-solid fa-plane-departure fs-4">
+                <span class="highlight-text">10:15</span> 桃園第一航廈
+              </i>
+              <br>
+              <i class="fa-solid fa-plane-arrival fs-4">
+                <span class="highlight-text">14:15</span> 成田第二航廈
+              </i>                
             </div>
           </div>
         </div>
@@ -35,8 +43,14 @@
           </h2>
           <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
             <div class="accordion-body">
-                <h3>N'EX 32号 15:18 成田機場T2 - 16:41 新宿</h3>
-                <h3>N'EX 34号 15:48 成田機場T2 - 17:12 新宿</h3>
+                <i class="fa-solid fa-train-subway fs-4">
+                  N'EX 32号 <span class="highlight-text">15:18</span> 成田機場T2 - 16:41 新宿
+                </i>
+                <br>
+                <i class="fa-solid fa-train-subway fs-4">
+                  N'EX 34号 <span class="highlight-text">15:48</span> 成田機場T2 - 17:12 新宿
+                </i>
+                <br>
                 <div class="btn btn-primary">
                     <a href="https://japantravel.navitime.com/zh-tw/area/jp/timetable/00004637/00000161/?direction=up&date=2024-03-29&move=&next=00003544&type=%E7%89%B9%E6%80%A5&summaryLine=" target="_blank">時刻表</a>
                 </div>
@@ -72,21 +86,57 @@
           </div>
         </div>
         <div class="accordion-item">
-            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
-              <button class="accordion-button fs-2 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
-                牛舌檸檬
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
-              <div class="accordion-body">
-                  <i class="fa-solid fa-map-location-dot"></i>
-                  <div class="btn btn-warning">
-                      <a href="https://maps.app.goo.gl/gFHXmr4oWzNJfoSp6" target="_blank" rel="noopener noreferrer">新宿焼肉 牛たんの檸檬</a>
-                  </div>
-              </div>
+          <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+            <button class="accordion-button fs-2 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+              新宿逛街
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFour">
+            <div class="accordion-body">
+                <i class="fa-solid fa-map-location-dot"></i>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/rGVthgoSkmPY4yj38" target="_blank" rel="noopener noreferrer">X Space新宿 (3D廣告看板)</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/YtUeWDpcuBWp5VVu8" target="_blank" rel="noopener noreferrer">GU 新宿 Flags 店</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/FG93dT1V21QrZh1eA" target="_blank" rel="noopener noreferrer">LE LABO ルラボ 伊勢丹新宿店</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/iHcejCGtAWwDu3JT6" target="_blank" rel="noopener noreferrer">LE LABO ルラボ NEWoMan新宿</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/SuWnNmvuTaujUnSVA" target="_blank" rel="noopener noreferrer">BARNYARDSTORM 新宿タカシマヤ</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/Pg3rxqpTXE7y8f5S8" target="_blank" rel="noopener noreferrer">藍瓶咖啡 新宿店</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/ghYfjGDPHU43m6wF9" target="_blank" rel="noopener noreferrer">サッカーショップKAMO 新宿店</a>
+                </div>
+                <div class="btn btn-warning">
+                  <a href="https://maps.app.goo.gl/Ka36You8Vgr452g5A" target="_blank" rel="noopener noreferrer">東急歌舞伎町TOWER</a>
+                </div>
             </div>
           </div>
-  
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+            <button class="accordion-button fs-2 fw-bold collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFive" aria-expanded="false" aria-controls="panelsStayOpen-collapseFive">
+              牛舌檸檬
+            </button>
+          </h2>
+          <div id="panelsStayOpen-collapseFive" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingFive">
+            <div class="accordion-body">
+                <p>預約21:00</p>
+                <i class="fa-solid fa-map-location-dot"></i>
+                <div class="btn btn-warning">
+                    <a href="https://maps.app.goo.gl/gFHXmr4oWzNJfoSp6" target="_blank" rel="noopener noreferrer">新宿焼肉 牛たんの檸檬</a>
+                </div>
+            </div>
+          </div>
+        </div>
     </div>  
     <div class="btn btn-primary">
         <a href="./index.html">回首頁</a>

@@ -1,5 +1,6 @@
-.purple {
-    background-color: #9955ff;
+.highlight-text {
+    color: red;
+    font-style: italic;
 }
 
 .accordion-title {
