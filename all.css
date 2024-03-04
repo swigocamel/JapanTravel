@@ -39,3 +39,31 @@ a:hover {
 .subway-fukutoshin-line {
     color: rgb(156, 94, 49);
 }
+
+.subway-yamanote-line {
+    color: rgb(115, 193, 29);
+}
+
+.subway-tokyu-den-en-toshi-line {
+    color: rgb(0, 168, 141);
+}
+
+.subway-saikyo-line {
+    color: rgb(70, 165, 115);
+}
+
+.subway-tokyu-setagaya-line {
+    color: rgb(242, 187, 53);
+}
+
+.subway-ginza-line {
+    color: rgb(242, 142, 0);
+}
+
+.subway-chiyoda-line {
+    color: rgb(0, 187, 133);
+}
+
+.subway-oedo-line {
+    color: rgb(215, 31, 117);
+}
