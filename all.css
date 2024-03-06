@@ -67,3 +67,19 @@ a:hover {
 .subway-oedo-line {
     color: rgb(215, 31, 117);
 }
+
+.subway-seibu-shinjuku-line {
+    color: rgb(0, 166, 191);
+}
+
+.subway-seibu-itebukuro-line {
+    color: rgb(238, 122, 0);
+}
+
+.subway-chuo-line {
+    color: rgb(242, 82, 16);
+}
+
+.subway-keiyo-line {
+    color: rgb(179, 28, 49);
+}
