@@ -107,3 +107,47 @@ a:hover {
 .nagoya-meitetsu-line {
     color: rgb(237, 60, 45);
 }
+
+.nagoya-kintetsu-line {
+    color: rgb(242, 158, 44);
+}
+
+.f1-redbull {
+    color: rgb(21, 24, 95);
+}
+
+.fi-ferrari {
+    color: rgb(254, 0, 0);
+}
+
+.f1-mclaren {
+    color: rgb(253, 128, 0);
+}
+
+.f1-mercedes {
+    color: rgb(0, 245, 211);
+}
+
+.f1-austin-martin {
+    color: rgb(0, 89, 78);
+}
+
+.f1-haas {
+    color: rgb(206, 3, 30);
+}
+
+.f1-williams {
+    color: rgb(0, 0, 254);
+}
+
+.f1-kick-sauber {
+    color: rgb(0, 231, 1);
+}
+
+.f1-visa-rb {
+    color: rgb(21, 52, 204);
+}
+
+.f1-alpine {
+    color: rgb(12, 30, 44);
+}
