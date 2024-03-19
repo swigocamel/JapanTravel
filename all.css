@@ -24,6 +24,10 @@ a:hover {
     color: black;
 }
 
+.red {
+    color: red;
+}
+
 .subway-shinjuku-line {
     color: rgb(173, 238, 47);
 }
@@ -116,7 +120,7 @@ a:hover {
     color: rgb(21, 24, 95);
 }
 
-.fi-ferrari {
+.f1-ferrari {
     color: rgb(254, 0, 0);
 }
 
